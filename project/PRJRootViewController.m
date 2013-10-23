@@ -11,6 +11,7 @@
 #import "PRJQuizViewController.h"
 #import "LearnViewController.h"
 
+
 @interface PRJRootViewController ()
 
 @end
@@ -55,6 +56,10 @@
     [self.learningController.view removeFromSuperview];
     [self.practiceController.view removeFromSuperview];
     if(self.quizController.view.superview==nil){
+        self.quizController = [[PRJQuizViewController alloc]initWithNibName:@"PRJQuizViewController" bundle:nil];
+        [self.view insertSubview:self.quizController.view atIndex:0];
+    }else{
+        [self.quizController.view removeFromSuperview];
         self.quizController = [[PRJQuizViewController alloc]initWithNibName:@"PRJQuizViewController" bundle:nil];
         [self.view insertSubview:self.quizController.view atIndex:0];
     }

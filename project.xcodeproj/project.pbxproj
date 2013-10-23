@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		2A13E08E1808A45E001361A0 /* PRJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A13E08C1808A45E001361A0 /* PRJRootViewController.m */; };
 		2A13E08F1808A45E001361A0 /* PRJRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A13E08D1808A45E001361A0 /* PRJRootViewController.xib */; };
-		2A1C5597181320D5008DFCA2 /* questionsbank.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C5596181320D5008DFCA2 /* questionsbank.txt */; };
+		2A1C5597181320D5008DFCA2 /* questionsbank4quiz.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C5596181320D5008DFCA2 /* questionsbank4quiz.txt */; };
+		2A621763181704CA00DEC7AF /* questionsbank.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2A621762181704CA00DEC7AF /* questionsbank.txt */; };
 		2A705F8F17FF14ED002587BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F8E17FF14ED002587BF /* UIKit.framework */; };
 		2A705F9117FF14ED002587BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F9017FF14ED002587BF /* Foundation.framework */; };
 		2A705F9317FF14ED002587BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F9217FF14ED002587BF /* CoreGraphics.framework */; };
@@ -21,12 +22,12 @@
 		2A705FA517FF14ED002587BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA417FF14ED002587BF /* Default-568h@2x.png */; };
 		2A705FA817FF14ED002587BF /* PRJPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A705FA717FF14ED002587BF /* PRJPracticeViewController.m */; };
 		2A705FAB17FF14ED002587BF /* PRJPracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA917FF14ED002587BF /* PRJPracticeViewController.xib */; };
-		2ACE37C8180F6A9000BF27F0 /* QuizContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE37C6180F6A9000BF27F0 /* QuizContentViewController.m */; };
-		2ACE37C9180F6A9000BF27F0 /* QuizContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE37C7180F6A9000BF27F0 /* QuizContentViewController.xib */; };
 		2ACE37D0180F717D00BF27F0 /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE37CE180F717D00BF27F0 /* quiz.png */; };
 		2ACE37D1180F717D00BF27F0 /* takequiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE37CF180F717D00BF27F0 /* takequiz.png */; };
 		2AD2F7D31812DC7D00E93A0D /* UserAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2F7D21812DC7D00E93A0D /* UserAnswer.m */; };
 		2AD4B3B418059FF600F40E01 /* ArrayOfQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD4B3B318059FF600F40E01 /* ArrayOfQuestion.m */; };
+		2AD8925018180BD2004DF9BD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD8924F18180BD2004DF9BD /* icon.png */; };
+		2AD8925218180BDC004DF9BD /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD8925118180BDC004DF9BD /* icon2.png */; };
 		2ADE9D6518121B43002D220A /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE9D6318121B43002D220A /* QuizViewController.m */; };
 		2ADE9D6618121B43002D220A /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE9D6418121B43002D220A /* QuizViewController.xib */; };
 		2ADE9D6C18121BCF002D220A /* quizbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE9D6718121BCF002D220A /* quizbg.png */; };
@@ -38,6 +39,10 @@
 		2ADE9D74181222D4002D220A /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE9D72181222D4002D220A /* next.png */; };
 		2AE0262A180C28A400991B73 /* PRJQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE02628180C28A400991B73 /* PRJQuizViewController.m */; };
 		2AE0262B180C28A400991B73 /* PRJQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE02629180C28A400991B73 /* PRJQuizViewController.xib */; };
+		2AE26A7518145AE6004A5416 /* answer4pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26A7118145AE6004A5416 /* answer4pressed.png */; };
+		2AE26A7618145AE6004A5416 /* answer3pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26A7218145AE6004A5416 /* answer3pressed.png */; };
+		2AE26A7718145AE6004A5416 /* answer2pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26A7318145AE6004A5416 /* answer2pressed.png */; };
+		2AE26A7818145AE6004A5416 /* answer1pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26A7418145AE6004A5416 /* answer1pressed.png */; };
 		2AF4AD5A1802FED000C8CB1A /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4AD591802FED000C8CB1A /* Question.m */; };
 		549F7228180C61A400BC2610 /* LearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F7226180C61A300BC2610 /* LearnViewController.m */; };
 		549F7229180C61A400BC2610 /* LearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 549F7227180C61A400BC2610 /* LearnViewController.xib */; };
@@ -47,7 +52,10 @@
 		2A13E08B1808A45E001361A0 /* PRJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRJRootViewController.h; sourceTree = "<group>"; };
 		2A13E08C1808A45E001361A0 /* PRJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRJRootViewController.m; sourceTree = "<group>"; };
 		2A13E08D1808A45E001361A0 /* PRJRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRJRootViewController.xib; sourceTree = "<group>"; };
-		2A1C5596181320D5008DFCA2 /* questionsbank.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionsbank.txt; sourceTree = "<group>"; };
+		2A1C5596181320D5008DFCA2 /* questionsbank4quiz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionsbank4quiz.txt; sourceTree = "<group>"; };
+		2A395B7F1815FEB300C86E1A /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		2A395B801815FEB300C86E1A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2A621762181704CA00DEC7AF /* questionsbank.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionsbank.txt; sourceTree = "<group>"; };
 		2A705F8B17FF14ED002587BF /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A705F8E17FF14ED002587BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2A705F9017FF14ED002587BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,15 +72,14 @@
 		2A705FA617FF14ED002587BF /* PRJPracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRJPracticeViewController.h; sourceTree = "<group>"; };
 		2A705FA717FF14ED002587BF /* PRJPracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRJPracticeViewController.m; sourceTree = "<group>"; };
 		2A705FAA17FF14ED002587BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRJPracticeViewController.xib; sourceTree = "<group>"; };
-		2ACE37C5180F6A9000BF27F0 /* QuizContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizContentViewController.h; sourceTree = "<group>"; };
-		2ACE37C6180F6A9000BF27F0 /* QuizContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizContentViewController.m; sourceTree = "<group>"; };
-		2ACE37C7180F6A9000BF27F0 /* QuizContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizContentViewController.xib; sourceTree = "<group>"; };
 		2ACE37CE180F717D00BF27F0 /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
 		2ACE37CF180F717D00BF27F0 /* takequiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takequiz.png; sourceTree = "<group>"; };
 		2AD2F7D11812DC7D00E93A0D /* UserAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAnswer.h; sourceTree = "<group>"; };
 		2AD2F7D21812DC7D00E93A0D /* UserAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAnswer.m; sourceTree = "<group>"; };
 		2AD4B3B218059FF600F40E01 /* ArrayOfQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfQuestion.h; sourceTree = "<group>"; };
 		2AD4B3B318059FF600F40E01 /* ArrayOfQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfQuestion.m; sourceTree = "<group>"; };
+		2AD8924F18180BD2004DF9BD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2AD8925118180BDC004DF9BD /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
 		2ADE9D6218121B43002D220A /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
 		2ADE9D6318121B43002D220A /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 		2ADE9D6418121B43002D220A /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
@@ -86,6 +93,10 @@
 		2AE02627180C28A400991B73 /* PRJQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRJQuizViewController.h; sourceTree = "<group>"; };
 		2AE02628180C28A400991B73 /* PRJQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRJQuizViewController.m; sourceTree = "<group>"; };
 		2AE02629180C28A400991B73 /* PRJQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRJQuizViewController.xib; sourceTree = "<group>"; };
+		2AE26A7118145AE6004A5416 /* answer4pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer4pressed.png; sourceTree = "<group>"; };
+		2AE26A7218145AE6004A5416 /* answer3pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer3pressed.png; sourceTree = "<group>"; };
+		2AE26A7318145AE6004A5416 /* answer2pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer2pressed.png; sourceTree = "<group>"; };
+		2AE26A7418145AE6004A5416 /* answer1pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer1pressed.png; sourceTree = "<group>"; };
 		2AF4AD581802FED000C8CB1A /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		2AF4AD591802FED000C8CB1A /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		549F7225180C61A300BC2610 /* LearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnViewController.h; sourceTree = "<group>"; };
@@ -110,6 +121,8 @@
 		2A705F8217FF14ED002587BF = {
 			isa = PBXGroup;
 			children = (
+				2AD8925118180BDC004DF9BD /* icon2.png */,
+				2AD8924F18180BD2004DF9BD /* icon.png */,
 				2A705F9417FF14ED002587BF /* project */,
 				2A705F8D17FF14ED002587BF /* Frameworks */,
 				2A705F8C17FF14ED002587BF /* Products */,
@@ -160,9 +173,6 @@
 				2ADE9D6218121B43002D220A /* QuizViewController.h */,
 				2ADE9D6318121B43002D220A /* QuizViewController.m */,
 				2ADE9D6418121B43002D220A /* QuizViewController.xib */,
-				2ACE37C5180F6A9000BF27F0 /* QuizContentViewController.h */,
-				2ACE37C6180F6A9000BF27F0 /* QuizContentViewController.m */,
-				2ACE37C7180F6A9000BF27F0 /* QuizContentViewController.xib */,
 				2A705F9517FF14ED002587BF /* Supporting Files */,
 			);
 			path = project;
@@ -171,7 +181,14 @@
 		2A705F9517FF14ED002587BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A1C5596181320D5008DFCA2 /* questionsbank.txt */,
+				2A621762181704CA00DEC7AF /* questionsbank.txt */,
+				2A395B7F1815FEB300C86E1A /* icon2.png */,
+				2A395B801815FEB300C86E1A /* icon.png */,
+				2AE26A7118145AE6004A5416 /* answer4pressed.png */,
+				2AE26A7218145AE6004A5416 /* answer3pressed.png */,
+				2AE26A7318145AE6004A5416 /* answer2pressed.png */,
+				2AE26A7418145AE6004A5416 /* answer1pressed.png */,
+				2A1C5596181320D5008DFCA2 /* questionsbank4quiz.txt */,
 				2ADE9D71181222D4002D220A /* back.png */,
 				2ADE9D72181222D4002D220A /* next.png */,
 				2ADE9D6718121BCF002D220A /* quizbg.png */,
@@ -252,7 +269,6 @@
 				2A13E08F1808A45E001361A0 /* PRJRootViewController.xib in Resources */,
 				2AE0262B180C28A400991B73 /* PRJQuizViewController.xib in Resources */,
 				549F7229180C61A400BC2610 /* LearnViewController.xib in Resources */,
-				2ACE37C9180F6A9000BF27F0 /* QuizContentViewController.xib in Resources */,
 				2ACE37D0180F717D00BF27F0 /* quiz.png in Resources */,
 				2ACE37D1180F717D00BF27F0 /* takequiz.png in Resources */,
 				2ADE9D6618121B43002D220A /* QuizViewController.xib in Resources */,
@@ -263,7 +279,14 @@
 				2ADE9D7018121BCF002D220A /* answer4.png in Resources */,
 				2ADE9D73181222D4002D220A /* back.png in Resources */,
 				2ADE9D74181222D4002D220A /* next.png in Resources */,
-				2A1C5597181320D5008DFCA2 /* questionsbank.txt in Resources */,
+				2A1C5597181320D5008DFCA2 /* questionsbank4quiz.txt in Resources */,
+				2AE26A7518145AE6004A5416 /* answer4pressed.png in Resources */,
+				2AE26A7618145AE6004A5416 /* answer3pressed.png in Resources */,
+				2AE26A7718145AE6004A5416 /* answer2pressed.png in Resources */,
+				2AE26A7818145AE6004A5416 /* answer1pressed.png in Resources */,
+				2A621763181704CA00DEC7AF /* questionsbank.txt in Resources */,
+				2AD8925018180BD2004DF9BD /* icon.png in Resources */,
+				2AD8925218180BDC004DF9BD /* icon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +305,6 @@
 				2A13E08E1808A45E001361A0 /* PRJRootViewController.m in Sources */,
 				2AE0262A180C28A400991B73 /* PRJQuizViewController.m in Sources */,
 				549F7228180C61A400BC2610 /* LearnViewController.m in Sources */,
-				2ACE37C8180F6A9000BF27F0 /* QuizContentViewController.m in Sources */,
 				2ADE9D6518121B43002D220A /* QuizViewController.m in Sources */,
 				2AD2F7D31812DC7D00E93A0D /* UserAnswer.m in Sources */,
 			);

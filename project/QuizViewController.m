@@ -35,7 +35,7 @@
     _buttonPressStatus = 0;
     _buttonPressBack = 0;
     //Number of question used for the Quiz
-    _numOfQuestion4Quiz = 15;
+    _numOfQuestion4Quiz = 10;
     //Initialize a new Array of Question
     ArrayOfQuestion *myArrayOfQuestion = [[ArrayOfQuestion alloc] init];
     //assign the array of question after initialized into myArray which acctually contain questions
@@ -114,6 +114,10 @@
 }
 
 - (IBAction)answerButton1:(UIButton *)sender {
+    [_answerLable1 setBackgroundImage:[UIImage imageNamed:@"answer1pressed.png"] forState:UIControlStateNormal];
+    [_answerLable2 setBackgroundImage:[UIImage imageNamed:@"answer2.png"] forState:UIControlStateNormal];
+    [_answerLable3 setBackgroundImage:[UIImage imageNamed:@"answer3.png"] forState:UIControlStateNormal];
+    [_answerLable4 setBackgroundImage:[UIImage imageNamed:@"answer4.png"] forState:UIControlStateNormal];
     UserAnswer *answer = [[UserAnswer alloc]init];
     Question *currentQuestion = [_myArray objectAtIndex:_index];
     answer.question = currentQuestion.question;
@@ -131,6 +135,10 @@
 }
 
 - (IBAction)answerButton2:(UIButton *)sender {
+    [_answerLable1 setBackgroundImage:[UIImage imageNamed:@"answer1.png"] forState:UIControlStateNormal];
+    [_answerLable2 setBackgroundImage:[UIImage imageNamed:@"answer2pressed.png"] forState:UIControlStateNormal];
+    [_answerLable3 setBackgroundImage:[UIImage imageNamed:@"answer3.png"] forState:UIControlStateNormal];
+    [_answerLable4 setBackgroundImage:[UIImage imageNamed:@"answer4.png"] forState:UIControlStateNormal];
     UserAnswer *answer = [[UserAnswer alloc]init];
     Question *currentQuestion = [_myArray objectAtIndex:_index];
     answer.question = currentQuestion.question;
@@ -148,6 +156,10 @@
 }
 
 - (IBAction)answerButton3:(UIButton *)sender {
+    [_answerLable1 setBackgroundImage:[UIImage imageNamed:@"answer1.png"] forState:UIControlStateNormal];
+    [_answerLable2 setBackgroundImage:[UIImage imageNamed:@"answer2.png"] forState:UIControlStateNormal];
+    [_answerLable3 setBackgroundImage:[UIImage imageNamed:@"answer3pressed.png"] forState:UIControlStateNormal];
+    [_answerLable4 setBackgroundImage:[UIImage imageNamed:@"answer4.png"] forState:UIControlStateNormal];
     UserAnswer *answer = [[UserAnswer alloc]init];
     Question *currentQuestion = [_myArray objectAtIndex:_index];
     answer.question = currentQuestion.question;
@@ -165,6 +177,10 @@
 }
 
 - (IBAction)answerButton4:(UIButton *)sender {
+    [_answerLable1 setBackgroundImage:[UIImage imageNamed:@"answer1.png"] forState:UIControlStateNormal];
+    [_answerLable2 setBackgroundImage:[UIImage imageNamed:@"answer2.png"] forState:UIControlStateNormal];
+    [_answerLable3 setBackgroundImage:[UIImage imageNamed:@"answer3.png"] forState:UIControlStateNormal];
+    [_answerLable4 setBackgroundImage:[UIImage imageNamed:@"answer4pressed.png"] forState:UIControlStateNormal];
     UserAnswer *answer = [[UserAnswer alloc]init];
     Question *currentQuestion = [_myArray objectAtIndex:_index];
     answer.question = currentQuestion.question;
@@ -200,6 +216,26 @@
             _buttonPressStatus = 0;
             _index++;
             [self getQuestion:_index];
+            [_answerLable1 setBackgroundImage:[UIImage imageNamed:@"answer1.png"] forState:UIControlStateNormal];
+            [_answerLable2 setBackgroundImage:[UIImage imageNamed:@"answer2.png"] forState:UIControlStateNormal];
+            [_answerLable3 setBackgroundImage:[UIImage imageNamed:@"answer3.png"] forState:UIControlStateNormal];
+            [_answerLable4 setBackgroundImage:[UIImage imageNamed:@"answer4.png"] forState:UIControlStateNormal];
+            if(_buttonPressBack > 0){
+                UserAnswer *getAnswer = _userAnswerArray[_index];
+                if([_answerLable1.currentTitle isEqualToString:getAnswer.userAnswer]){
+                    [_answerLable1 setBackgroundImage:[UIImage imageNamed:@"answer1pressed.png"] forState:UIControlStateNormal];
+                }
+                if([_answerLable2.currentTitle isEqualToString:getAnswer.userAnswer]){
+                    [_answerLable2 setBackgroundImage:[UIImage imageNamed:@"answer2pressed.png"] forState:UIControlStateNormal];
+                }
+                if([_answerLable3.currentTitle isEqualToString:getAnswer.userAnswer]){
+                    [_answerLable3 setBackgroundImage:[UIImage imageNamed:@"answer3pressed.png"] forState:UIControlStateNormal];
+                }
+                if([_answerLable4.currentTitle isEqualToString:getAnswer.userAnswer]){
+                    [_answerLable4 setBackgroundImage:[UIImage imageNamed:@"answer4pressed.png"] forState:UIControlStateNormal];
+                }
+
+            }
         }
     }
 }
@@ -216,6 +252,25 @@
         [self getQuestion:_index];
         //User click back button to revise
         _buttonPressBack++;
+        //check which button was chosen
+        [_answerLable1 setBackgroundImage:[UIImage imageNamed:@"answer1.png"] forState:UIControlStateNormal];
+        [_answerLable2 setBackgroundImage:[UIImage imageNamed:@"answer2.png"] forState:UIControlStateNormal];
+        [_answerLable3 setBackgroundImage:[UIImage imageNamed:@"answer3.png"] forState:UIControlStateNormal];
+        [_answerLable4 setBackgroundImage:[UIImage imageNamed:@"answer4.png"] forState:UIControlStateNormal];
+        UserAnswer *getAnswer = _userAnswerArray[_index];
+        if([_answerLable1.currentTitle isEqualToString:getAnswer.userAnswer]){
+            [_answerLable1 setBackgroundImage:[UIImage imageNamed:@"answer1pressed.png"] forState:UIControlStateNormal];
+        }
+        if([_answerLable2.currentTitle isEqualToString:getAnswer.userAnswer]){
+            [_answerLable2 setBackgroundImage:[UIImage imageNamed:@"answer2pressed.png"] forState:UIControlStateNormal];
+        }
+        if([_answerLable3.currentTitle isEqualToString:getAnswer.userAnswer]){
+            [_answerLable3 setBackgroundImage:[UIImage imageNamed:@"answer3pressed.png"] forState:UIControlStateNormal];
+        }
+        if([_answerLable4.currentTitle isEqualToString:getAnswer.userAnswer]){
+            [_answerLable4 setBackgroundImage:[UIImage imageNamed:@"answer4pressed.png"] forState:UIControlStateNormal];
+        }
+
     }
 }
 @end

@@ -11,10 +11,12 @@
 @class PRJQuizViewController;
 @class LearnViewController;
 
+
 @interface PRJRootViewController : UIViewController
 @property (strong,nonatomic)PRJPracticeViewController *practiceController;
 @property (strong,nonatomic)PRJQuizViewController *quizController;
 @property (strong,nonatomic)LearnViewController *learningController;
+
 @property(strong,nonatomic)NSString *viewTitle;
 - (IBAction)learningViewButton:(UIBarButtonItem *)sender;
 - (IBAction)practiceViewButton:(UIBarButtonItem *)sender;

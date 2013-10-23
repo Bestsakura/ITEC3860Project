@@ -65,7 +65,7 @@
 //go to previous question when user clicks BACK button
 - (IBAction)backButton:(UIButton *)sender {
     _index = arc4random_uniform(_arraySize);//get random question
-    NSLog(@"%d",_index);
+    //NSLog(@"%d",_index);
     [self getQuestion:_index];
     //set test lable to blank
     _testLable.text = @"";
@@ -74,7 +74,7 @@
 //go to next question when user clicks NEXT button
 - (IBAction)nextButton:(UIButton *)sender {
     _index = arc4random_uniform(_arraySize);//get random question
-    NSLog(@"%d",_index);
+    //NSLog(@"%d",_index);
     [self getQuestion:_index];
     //set test lable to blank
     _testLable.text = @"";

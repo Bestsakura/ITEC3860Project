@@ -18,6 +18,8 @@
 @property (nonatomic,strong) NSString* example;
 @property (nonatomic,strong) NSString* animationLink;
 @property (nonatomic,strong) NSString* correctAnswer;
+@property (nonatomic,strong) NSString* topic;
+@property (nonatomic,strong) NSString* link;
 //@property NSInteger correctAnswer;
 
 @end
