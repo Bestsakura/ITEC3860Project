@@ -9,7 +9,7 @@
 #import "PRJRootViewController.h"
 #import "PRJPracticeViewController.h"
 #import "PRJQuizViewController.h"
-#import "LearnViewController.h"
+#import "PRJLearnViewController.h"
 
 
 @interface PRJRootViewController ()
@@ -34,7 +34,7 @@
     //Allocate for the practice View
     //self.practiceController = [[PRJPracticeViewController alloc] initWithNibName:@"PRJPracticeViewController" bundle:nil];
     //Allocate for the Lerning view as default
-    self.learningController = [[LearnViewController alloc]initWithNibName:@"LearnViewController" bundle:nil];
+    self.learningController = [[PRJLearnViewController alloc]initWithNibName:@"PRJLearnViewController" bundle:nil];
 
     //Add practiceViewController as subView of RootView
     //[self.view insertSubview:self.practiceController.view  atIndex:0];
@@ -69,9 +69,14 @@
     [self.practiceController.view removeFromSuperview];
     [self.quizController.view removeFromSuperview];
     if(self.learningController.view.superview==nil){
-        self.learningController = [[LearnViewController alloc] initWithNibName:@"LearnViewController" bundle:nil];
+        self.learningController = [[PRJLearnViewController alloc] initWithNibName:@"PRJLearnViewController" bundle:nil];
+        [self.view insertSubview:self.learningController.view atIndex:0];
+    }else{
+        [self.learningController.view removeFromSuperview];
+        self.learningController = [[PRJLearnViewController alloc] initWithNibName:@"PRJLearnViewController" bundle:nil];
         [self.view insertSubview:self.learningController.view atIndex:0];
     }
+
 }
 
 - (IBAction)practiceViewButton:(UIBarButtonItem *)sender {
@@ -80,6 +85,10 @@
     [self.quizController.view removeFromSuperview];
     if(self.practiceController.view.superview==nil){
         self.practiceController = [[PRJPracticeViewController alloc]initWithNibName:@"PRJPracticeViewController" bundle:nil];
+        [self.view insertSubview:self.practiceController.view atIndex:0];
+    }else{
+        [self.practiceController.view removeFromSuperview];
+        self.practiceController = [[PRJPracticeViewController alloc] initWithNibName:@"PRJPracticeViewController" bundle:nil];
         [self.view insertSubview:self.practiceController.view atIndex:0];
     }
 }

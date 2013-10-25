@@ -1,30 +1,790 @@
-1.The following data are all examples of ___________? 72, 'A', Hello World, 2. 8712.
+1. A set of values and the operations that can be carried out with those values are called _______.
+literals
+numbers
+values
+types
+types
+Hint:Review variable section
+Example:Variables are place holders for values.
+Topic:Variables
+Link:
+2. What is the name of the type that denotes floating-point numbers that can have fractional parts?
+double
+floatingPoint
+int
+integer
+double
+Hint:Int and Integer are the same. Lookup FloatingPoint and Double
+Example:To get an accurace fraction use doubles
+Topic:Variables
+Link:
+3. What is the name of the type that denotes whole numbers? 
+double 
+int
+whole 
+integer 
+integer
+Hint:Use the full word.
+Example:Variables are place holders for values.
+Topic:Variables
+Link:
+4. Which is a valid number literal? 
+1x10^4 
+1E4 
+3 1/2 
+10,000 
+1E4 
+Hint:Special Figures are not valid such as " , / or ^)
+Example:1E4 is 1^4
+Topic:Variables
+Link:
+5. What is the name of the type that denotes a string of characters? 
+Characters 
+char 
+charString 
+String 
 String
+Hint:Character and String are variable types. 
+Example:"Hello" is a string of characters
+Topic:Variables
+Link:
+6. Which of the following values does not have a primitive type? 
+12.50 
+''Hello''
+6 
+1E4 
+''Hello''
+Hint:*
+Example:*
+Topic:Variables
+Link:
+7. What is a storage location in the computer's memory called that has a type, name, and contents? 
+identifier 
+literal 
+label 
+variable 
+variable 
+Hint:*
+Example:*
+Topic:Variables
+Link:
+8. Which of the following declares a variable that will store a welcome message? 
+String welcome; 
+double welcome; 
+Char welcome; 
+int welcome; 
+String welcome;
+Hint:*
+Example:*
+Topic:Variables
+Link: *
+9. Which of the following declares a variable that will store a measurement with fractional parts? 
+int measure; 
+double measure; 
+String measure; 
+integer measure; 
+double measure; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+10. Which of the following declares a variable that will store a count with an integer value? 
+integer count; 
+double count; 
+String count; 
+int count; 
+int count; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+11. Which term is used to describe the name of a variable, method, or class? 
+type 
+literal 
+identifier 
+label 
+identifier 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+13. By convention, variables begin with a(n) _____________. 
+uppercase letter 
+digit 
+lowercase letter 
+dollar sign 
+lowercase letter 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+14. By convention, classes begin with a(n) _____________. 
+lowercase letter 
+dollar sign 
+digit 
+uppercase letter 
+uppercase letter 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+15. Which of the following is the best choice for a variable identifier that will store a name? 
+name 
+Name 
+n 
+nm 
+name 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+16. What is the name of the = operator in Java? 
+inequality 
+assignment 
+identity 
+equality 
+assignment 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+17. What is the purpose of the assignment operator? 
+to check for inequality 
+to check for identity 
+to check for equality 
+to change the value of a variable 
+to change the value of a variable 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+18. Which statement declares a variable that will store an integer value? 
+integer count; 
+int count; 
+count = 5; 
+String count = 5; 
+int count; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+19. Which statement stores an integer value in a variable? 
+count = 5; 
+String count = 5; 
+int count; 
+integer count = 5; 
+count = 5; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+20. Which statement declares and stores an integer value in a variable? 
+count = 5; 
+int count = 5; 
+integer count = 5; 
+String count = 5; 
+int count = 5;
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+21. Assume that the variable count has been declared as type int, which statement changes the value of count? 
+count = 6; 
+count == 6; 
+integer count = 6; 
+count := 6; 
+count = 6; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+22. Assume that the variable count has been declared as type int. Which statement adds 10 to count? 
+count = 10; 
+count == count + 10; 
+count = count + 10; 
+count + 10; 
+count = count + 10; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+23. What is an object? 
+A sequence of instructions. 
+Any value stored in a variable. 
+An entity in your program that is manipulated by calling methods. 
+Any input to a method. 
+An entity in your program that is manipulated by calling methods.
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+24. What is the type of an object? 
+variable 
+method 
+reference 
+class 
+class 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+25. Which of the following statements about objects is correct? 
+An object defines the methods for a class. 
+Every object belongs to a class.
+An object is a sequence of instructions. 
+All entities, even numbers, are objects. 
+Every object belongs to a class.
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+26. Which is not a method of the String class? 
+length 
+toUpperCase 
+toLowerCase 
+println 
+println 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+27. In Java, every value is either a reference to an object, or it belongs to one of the eight _________. 
+primitive types
+number types 
+char types 
+boolean types 
+primitive types
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+28. In Java, which of the following is not an integer primitive type? 
+byte 
+long 
+double 
+short 
+double 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+29. In Java, there are four integer primitive types with different ranges of integer values. Which ordering of the integer types lists the types in increasing order by range? 
+byte, int, short, long 
+long, int, short, byte 
+byte, short, long, int 
+byte, short, int, long 
+byte, short, int, long 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+30. A numeric computation ___________ if the result falls outside the range for the number type. 
+overflows 
+concatenates 
+truncates 
+rounds 
+overflows 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+31. What type carries out floating-point computation without roundoff errors? 
+BigInteger 
+BigDecimal 
+float 
+double 
+BigDecimal 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+32. The decimal equivalent of 110100 binary is ____. 
+26 
+48 
+52 
+70 
+52 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+33. The decimal equivalent of 111010 binary is ____. 
+142 
+72 
+58 
+112 
+58 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+34. Numerical ____________________ are values that do not change and that have a special significance for a computation. 
+constants 
+statics 
+comments 
+commands 
+constants 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+35. In Java, what reserved word is used to identify constants? 
+final 
+double 
+constant 
+int 
+final 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+36. Which of the following correctly defines a constant in a method? 
+public static final double L_P_G == 3.785 
+final double NICKEL_VALUE == 0.05; 
+final double NICKEL_VALUE = 0.05; 
+public static final double L_P_G = 3.785; 
+final double NICKEL_VALUE = 0.05; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+37. Which of the following correctly defines a constant in a method? 
+final int HOURS_PER_DAY = 24; 
+final int DAYS_PER_YEAR == 365; 
+public static final int DAYS_PER_YEAR = 365; 
+public static final int HOURS_PER_DAY == 24; 
+final int HOURS_PER_DAY = 24; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+38. Which of the following correctly defines a constant in a class? 
+public static final int HOURS_PER_DAY == 24; 
+final int HOURS_PER_DAY = 24; 
+final int DAYS_PER_YEAR == 365; 
+public static final int DAYS_PER_YEAR = 365; 
+public static final int DAYS_PER_YEAR = 365; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+39. What are the arithmetic operators (add, subtract, multiply, divide) in Java, respectively? 
++, -, x, / 
++, -, x, % 
++, -, *, / 
+add, subtract, multiply, divide 
++, -, *, / 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+40. What is the name of the operation denoted by the ++ operator? 
+decrement 
+addition 
+increment 
+plus 
+increment 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+41. What is the name of the operation denoted by the -- operator? 
+subtraction 
+minus 
+increment 
+decrement 
+decrement 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+42. What is the value of x after the following sequence of statements?  x--; x++; 
+x - 1 
+x + 1 
+x 
+0 
+x 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+43. What is the result of a / b when variables a and b are declared as follows: int a = 9; double b = 5;? 
+.80 
+4 
+1 
+1.80 
+1.80 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+44. What is the Java operator that computes the remainder of an integer division? 
+% 
+mod 
+/ 
+div 
+% 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+45. Which statement correctly computes the square root of the given number? 
+int s = Math.sqrt(16); 
+int s = Math.squareroot(16); 
+double s = Math.sqrt(16); 
+double s = Math.squareroot(16); 
+double s = Math.sqrt(16); 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+46. Which statement correctly computes a specified number raised to the specified power? 
+double p = 2.pow(3); 
+double p = Math.pow(2,3); 
+double p = 2.power(3); 
+double p = Math.power(2,3); 
+double p = Math.pow(2,3); 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+47. Which statement correctly computes the absolute value of the difference between x and y? 
+Math.abs(x-y) 
+Math.absoluteValue(x-y) 
+Math.absolute(x-y) 
+|x-y| 
+Math.abs(x-y) 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+48. What is the term that means to explicitly convert a value to a different type? 
+case 
+overflow 
+rounding 
+cast 
+cast 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+49. Which of the following code fragments converts a floating-point number to the nearest integer? double f = 4.65; 
+int n = (int) f; 
+int n = Math.round(f); 
+int n = (int) Math.round(f);
+int n = (int) Math.round(100 * f); 
+int n = (int) Math.round(f);
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+50. Which of the following code fragments converts a floating-point number to the nearest integer? double d = 6.54; 
+int i=(int)Math.round(100 * d); 
+int i=(int)Math.round(d); 
+int i=(int)d; 
+int i=Math.round(d); 
+int i=(int)Math.round(d);
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+51. Which statement displays the correct average of the value of these variables of type int? 
+println((int1+int2)/2.0); 
+println(int1+int2/2.0); 
+println(int1+int2/2); 
+println((int1+int2)/2); 
+println((int1+int2)/2.0); 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+52. Which of the following statements is equivalent to balance = balance + amount;? 
+balance += amount; 
+balance == amount; 
+balance +== amount; 
+balance =+ amount; 
+balance += amount; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+53. Which of the following statements is equivalent to balance = balance - amount;? 
+balance -= amount; 
+balance =- amount; 
+balance -== amount; 
+balance == amount; 
+balance -= amount; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+54. Which of the following statements is equivalent to items = items * 2;? 
+items *= 2; 
+items *== 2; 
+items =* 2; 
+items ==* 2 ; 
+items *= 2; 
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+55. The following data are all examples of what? 72, 'A', "Hello World"
 Literals
+Strings
 Variables
-None of these
+None of These
 Variables
-Review variable section
-Variables are any and all values.
-Topic1
-Link1
-2.A variable must be declared before it can be used.
-Sometimes
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+56. A variable must be delared before it can be used.
 Yes
 No
-Depend
+Sometimes
+*Blank*
 Yes
-Does a variable need a type before it can be used?
-Before a variable can be used it must be declared as a type.
-Topic2
-Link2
-3.Which one of these is an incorrect variable name.
-PrinceHamlet
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+57. Which one of these is an incorrect variable name?
 thatIsTheQuestion
 longLiveTheKing
-2BeOrNotToBe
-2BeOrNotToBe
-Is 2b mathmatical or the name of a variable?
-Whats the difference between b = 1d and b = 1 * d ? There isnt a difference.
-Topic3
-Link3
+2BeOrNot2Be
+PrinceHamlet
+2BeOrNot2Be
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+58. What keyword in variable decleration stops the variable from being changed?
+private
+static
+public
+final
+final
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+59. What is the value of a? int a; x = 23; a = x % 2;
+2
+1
+0
+11
+1
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+60. What type of variable has a value of either true or false?
+String
+Boolean
+Integer
+Binary
+Boolean
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+61. &&, ||, and ! are what?
+Logical operators
+Conditional operators
+Mathmatical operators
+Ternary operators
+Logical operators
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+62. The conditional operator takes how many opeerands?
+4
+3
+1
+2
+2
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+63. The "=" operator and the "==" operator perform the same operation.
+Yes
+No 
+Sometimes
+*Blank*
+No
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+64. The number 1234.123 belongs in what data type?
+Integer
+String
+Double
+Long
+Double
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+65. When declaring a String variable, what goes around the string?
+{ }
+< >
+[ ]
+" "
+" "
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+66. Can you declare an empty String?
+Yes
+No
+Sometimes
+Depend
+Yes
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+67. What is a basic unit of storage in Java?
+Identifier
+Constant
+Memeory
+Variable
+Variable
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+68. What is the width and range of an int in java?
+32 bits: -2,147,483,648 to 2,147,483,648
+32 bits: 0 to 4,294,967,296
+16 bits: -32,768 to 32,767
+Compiler Dependent
+32 bits: -2,147,483,648 to 2,147,483,648
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+69: Which one of the following is a reserved word?
+7up
+Apple
+grandTotal
+boolean
+boolean
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+70: Which operator do both statements have to be true for the outcome to be true?
+||
+&&
+>=
+>=
+&&
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+71: Which operator does only one statement have to be true for the outcome to be true?
+||
+&&
+>=
+<=
+||
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+72: Which is the appropriate data type for the value : "volatile" ?
+String
+integer
+double
+boolean
+String
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+73: Which is the appropriate data type for the value: true ?
+char
+String
+boolean
+double
+boolean
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+74: Which is the appropriate data type for the value: 1 ?
+double
+integer
+char
+boolean
+integer
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+75: What is the appropriate data type for the value: 5.5 ?
+double
+integer
+char
+boolean
+double
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+76: What is the appropriate data type for the value: 'a' ?
+double
+integer
+char
+boolean
+char
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+77: What is the appropriate data type for the value: "1"?
+double
+integer
+String
+boolean
+String
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+78: What would the following statment return when executed? : int x = 2, y = 10; if (x > 1 && y < 5) {return "yes";} else {return "no";}
+no
+yes
+error
+nothing
+no
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+79: What is the operator || called?
+The AND operator
+The OR THIS operator
+The OR operator
+The LESS THAN operator
+The OR operator
+Hint:*
+Example:*
+Topic:Variables
+Link:*
+80: What type of data is returned by the relational operators in Java?
+String
+integer
+double
+boolean
+boolean
+Hint:*
+Example:Variables are place holders for values.
+Topic:*
+Link:*

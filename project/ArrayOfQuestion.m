@@ -79,11 +79,13 @@
              questionI.correctAnswer = correct;
              questionI.hint = hint;
              questionI.example = example;
+             questionI.topic = topic;
+             questionI.link = link;
              [questionArray addObject:questionI];
          }
          counter++;
      }
-
+     //NSLog(@"Num of lines: %d",counter-1);
      return questionArray;
 }
 
@@ -144,6 +146,7 @@
         }
         counter++;
     }
+    //NSLog(@"Num of lines: %d",counter-1);
     return questionArray;
 }
 

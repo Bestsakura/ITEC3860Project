@@ -10,7 +10,14 @@
 		2A13E08E1808A45E001361A0 /* PRJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A13E08C1808A45E001361A0 /* PRJRootViewController.m */; };
 		2A13E08F1808A45E001361A0 /* PRJRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A13E08D1808A45E001361A0 /* PRJRootViewController.xib */; };
 		2A1C5597181320D5008DFCA2 /* questionsbank4quiz.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C5596181320D5008DFCA2 /* questionsbank4quiz.txt */; };
-		2A621763181704CA00DEC7AF /* questionsbank.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2A621762181704CA00DEC7AF /* questionsbank.txt */; };
+		2A2102EB1819B85000A17AD6 /* greencheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A2102E91819B85000A17AD6 /* greencheck.png */; };
+		2A2102EC1819B85000A17AD6 /* redcheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A2102EA1819B85000A17AD6 /* redcheck.png */; };
+		2A27568B181A116C00793292 /* practicebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A275689181A116C00793292 /* practicebutton.png */; };
+		2A27568C181A116C00793292 /* touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A27568A181A116C00793292 /* touch.png */; };
+		2A27568E181A126300793292 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A27568D181A126300793292 /* arrow.png */; };
+		2A275690181A1DC700793292 /* mainscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A27568F181A1DC700793292 /* mainscreen.png */; };
+		2A35B1991818C530005DCB44 /* PracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A35B1971818C530005DCB44 /* PracticeViewController.m */; };
+		2A35B19A1818C530005DCB44 /* PracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A35B1981818C530005DCB44 /* PracticeViewController.xib */; };
 		2A705F8F17FF14ED002587BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F8E17FF14ED002587BF /* UIKit.framework */; };
 		2A705F9117FF14ED002587BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F9017FF14ED002587BF /* Foundation.framework */; };
 		2A705F9317FF14ED002587BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F9217FF14ED002587BF /* CoreGraphics.framework */; };
@@ -20,8 +27,9 @@
 		2A705FA117FF14ED002587BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA017FF14ED002587BF /* Default.png */; };
 		2A705FA317FF14ED002587BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA217FF14ED002587BF /* Default@2x.png */; };
 		2A705FA517FF14ED002587BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA417FF14ED002587BF /* Default-568h@2x.png */; };
-		2A705FA817FF14ED002587BF /* PRJPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A705FA717FF14ED002587BF /* PRJPracticeViewController.m */; };
-		2A705FAB17FF14ED002587BF /* PRJPracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA917FF14ED002587BF /* PRJPracticeViewController.xib */; };
+		2AC321B71819F2F9002E9F3A /* PRJLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC321B51819F2F9002E9F3A /* PRJLearnViewController.m */; };
+		2AC321B81819F2F9002E9F3A /* PRJLearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC321B61819F2F9002E9F3A /* PRJLearnViewController.xib */; };
+		2AC9DF7C181AB71400AD1957 /* questionsbank.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2AC9DF7B181AB71400AD1957 /* questionsbank.txt */; };
 		2ACE37D0180F717D00BF27F0 /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE37CE180F717D00BF27F0 /* quiz.png */; };
 		2ACE37D1180F717D00BF27F0 /* takequiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE37CF180F717D00BF27F0 /* takequiz.png */; };
 		2AD2F7D31812DC7D00E93A0D /* UserAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2F7D21812DC7D00E93A0D /* UserAnswer.m */; };
@@ -43,6 +51,8 @@
 		2AE26A7618145AE6004A5416 /* answer3pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26A7218145AE6004A5416 /* answer3pressed.png */; };
 		2AE26A7718145AE6004A5416 /* answer2pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26A7318145AE6004A5416 /* answer2pressed.png */; };
 		2AE26A7818145AE6004A5416 /* answer1pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26A7418145AE6004A5416 /* answer1pressed.png */; };
+		2AEC43C71819DC4E00928703 /* PRJPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC43C51819DC4E00928703 /* PRJPracticeViewController.m */; };
+		2AEC43C81819DC4E00928703 /* PRJPracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC43C61819DC4E00928703 /* PRJPracticeViewController.xib */; };
 		2AF4AD5A1802FED000C8CB1A /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4AD591802FED000C8CB1A /* Question.m */; };
 		549F7228180C61A400BC2610 /* LearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F7226180C61A300BC2610 /* LearnViewController.m */; };
 		549F7229180C61A400BC2610 /* LearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 549F7227180C61A400BC2610 /* LearnViewController.xib */; };
@@ -53,9 +63,17 @@
 		2A13E08C1808A45E001361A0 /* PRJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRJRootViewController.m; sourceTree = "<group>"; };
 		2A13E08D1808A45E001361A0 /* PRJRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRJRootViewController.xib; sourceTree = "<group>"; };
 		2A1C5596181320D5008DFCA2 /* questionsbank4quiz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionsbank4quiz.txt; sourceTree = "<group>"; };
+		2A2102E91819B85000A17AD6 /* greencheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greencheck.png; sourceTree = "<group>"; };
+		2A2102EA1819B85000A17AD6 /* redcheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcheck.png; sourceTree = "<group>"; };
+		2A275689181A116C00793292 /* practicebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practicebutton.png; sourceTree = "<group>"; };
+		2A27568A181A116C00793292 /* touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch.png; sourceTree = "<group>"; };
+		2A27568D181A126300793292 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		2A27568F181A1DC700793292 /* mainscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainscreen.png; sourceTree = "<group>"; };
+		2A35B1961818C530005DCB44 /* PracticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeViewController.h; sourceTree = "<group>"; };
+		2A35B1971818C530005DCB44 /* PracticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeViewController.m; sourceTree = "<group>"; };
+		2A35B1981818C530005DCB44 /* PracticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PracticeViewController.xib; sourceTree = "<group>"; };
 		2A395B7F1815FEB300C86E1A /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
 		2A395B801815FEB300C86E1A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		2A621762181704CA00DEC7AF /* questionsbank.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionsbank.txt; sourceTree = "<group>"; };
 		2A705F8B17FF14ED002587BF /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A705F8E17FF14ED002587BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2A705F9017FF14ED002587BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,9 +87,10 @@
 		2A705FA017FF14ED002587BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2A705FA217FF14ED002587BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2A705FA417FF14ED002587BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2A705FA617FF14ED002587BF /* PRJPracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRJPracticeViewController.h; sourceTree = "<group>"; };
-		2A705FA717FF14ED002587BF /* PRJPracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRJPracticeViewController.m; sourceTree = "<group>"; };
-		2A705FAA17FF14ED002587BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRJPracticeViewController.xib; sourceTree = "<group>"; };
+		2AC321B41819F2F9002E9F3A /* PRJLearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRJLearnViewController.h; sourceTree = "<group>"; };
+		2AC321B51819F2F9002E9F3A /* PRJLearnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRJLearnViewController.m; sourceTree = "<group>"; };
+		2AC321B61819F2F9002E9F3A /* PRJLearnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRJLearnViewController.xib; sourceTree = "<group>"; };
+		2AC9DF7B181AB71400AD1957 /* questionsbank.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionsbank.txt; sourceTree = "<group>"; };
 		2ACE37CE180F717D00BF27F0 /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
 		2ACE37CF180F717D00BF27F0 /* takequiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takequiz.png; sourceTree = "<group>"; };
 		2AD2F7D11812DC7D00E93A0D /* UserAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAnswer.h; sourceTree = "<group>"; };
@@ -97,6 +116,9 @@
 		2AE26A7218145AE6004A5416 /* answer3pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer3pressed.png; sourceTree = "<group>"; };
 		2AE26A7318145AE6004A5416 /* answer2pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer2pressed.png; sourceTree = "<group>"; };
 		2AE26A7418145AE6004A5416 /* answer1pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer1pressed.png; sourceTree = "<group>"; };
+		2AEC43C41819DC4E00928703 /* PRJPracticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRJPracticeViewController.h; sourceTree = "<group>"; };
+		2AEC43C51819DC4E00928703 /* PRJPracticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRJPracticeViewController.m; sourceTree = "<group>"; };
+		2AEC43C61819DC4E00928703 /* PRJPracticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRJPracticeViewController.xib; sourceTree = "<group>"; };
 		2AF4AD581802FED000C8CB1A /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		2AF4AD591802FED000C8CB1A /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		549F7225180C61A300BC2610 /* LearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnViewController.h; sourceTree = "<group>"; };
@@ -161,13 +183,19 @@
 				2A13E08B1808A45E001361A0 /* PRJRootViewController.h */,
 				2A13E08C1808A45E001361A0 /* PRJRootViewController.m */,
 				2A13E08D1808A45E001361A0 /* PRJRootViewController.xib */,
+				2AC321B41819F2F9002E9F3A /* PRJLearnViewController.h */,
+				2AC321B51819F2F9002E9F3A /* PRJLearnViewController.m */,
+				2AC321B61819F2F9002E9F3A /* PRJLearnViewController.xib */,
 				549F7225180C61A300BC2610 /* LearnViewController.h */,
 				549F7226180C61A300BC2610 /* LearnViewController.m */,
 				549F7227180C61A400BC2610 /* LearnViewController.xib */,
-				2A705FA717FF14ED002587BF /* PRJPracticeViewController.m */,
-				2A705FA917FF14ED002587BF /* PRJPracticeViewController.xib */,
+				2AEC43C41819DC4E00928703 /* PRJPracticeViewController.h */,
+				2AEC43C51819DC4E00928703 /* PRJPracticeViewController.m */,
+				2AEC43C61819DC4E00928703 /* PRJPracticeViewController.xib */,
+				2A35B1961818C530005DCB44 /* PracticeViewController.h */,
+				2A35B1971818C530005DCB44 /* PracticeViewController.m */,
+				2A35B1981818C530005DCB44 /* PracticeViewController.xib */,
 				2AE02627180C28A400991B73 /* PRJQuizViewController.h */,
-				2A705FA617FF14ED002587BF /* PRJPracticeViewController.h */,
 				2AE02628180C28A400991B73 /* PRJQuizViewController.m */,
 				2AE02629180C28A400991B73 /* PRJQuizViewController.xib */,
 				2ADE9D6218121B43002D220A /* QuizViewController.h */,
@@ -181,7 +209,13 @@
 		2A705F9517FF14ED002587BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A621762181704CA00DEC7AF /* questionsbank.txt */,
+				2AC9DF7B181AB71400AD1957 /* questionsbank.txt */,
+				2A27568F181A1DC700793292 /* mainscreen.png */,
+				2A27568D181A126300793292 /* arrow.png */,
+				2A275689181A116C00793292 /* practicebutton.png */,
+				2A27568A181A116C00793292 /* touch.png */,
+				2A2102E91819B85000A17AD6 /* greencheck.png */,
+				2A2102EA1819B85000A17AD6 /* redcheck.png */,
 				2A395B7F1815FEB300C86E1A /* icon2.png */,
 				2A395B801815FEB300C86E1A /* icon.png */,
 				2AE26A7118145AE6004A5416 /* answer4pressed.png */,
@@ -265,7 +299,6 @@
 				2A705FA117FF14ED002587BF /* Default.png in Resources */,
 				2A705FA317FF14ED002587BF /* Default@2x.png in Resources */,
 				2A705FA517FF14ED002587BF /* Default-568h@2x.png in Resources */,
-				2A705FAB17FF14ED002587BF /* PRJPracticeViewController.xib in Resources */,
 				2A13E08F1808A45E001361A0 /* PRJRootViewController.xib in Resources */,
 				2AE0262B180C28A400991B73 /* PRJQuizViewController.xib in Resources */,
 				549F7229180C61A400BC2610 /* LearnViewController.xib in Resources */,
@@ -284,9 +317,18 @@
 				2AE26A7618145AE6004A5416 /* answer3pressed.png in Resources */,
 				2AE26A7718145AE6004A5416 /* answer2pressed.png in Resources */,
 				2AE26A7818145AE6004A5416 /* answer1pressed.png in Resources */,
-				2A621763181704CA00DEC7AF /* questionsbank.txt in Resources */,
 				2AD8925018180BD2004DF9BD /* icon.png in Resources */,
 				2AD8925218180BDC004DF9BD /* icon2.png in Resources */,
+				2A35B19A1818C530005DCB44 /* PracticeViewController.xib in Resources */,
+				2A2102EB1819B85000A17AD6 /* greencheck.png in Resources */,
+				2A2102EC1819B85000A17AD6 /* redcheck.png in Resources */,
+				2AEC43C81819DC4E00928703 /* PRJPracticeViewController.xib in Resources */,
+				2AC321B81819F2F9002E9F3A /* PRJLearnViewController.xib in Resources */,
+				2A27568B181A116C00793292 /* practicebutton.png in Resources */,
+				2A27568C181A116C00793292 /* touch.png in Resources */,
+				2A27568E181A126300793292 /* arrow.png in Resources */,
+				2A275690181A1DC700793292 /* mainscreen.png in Resources */,
+				2AC9DF7C181AB71400AD1957 /* questionsbank.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +341,6 @@
 			files = (
 				2A705F9B17FF14ED002587BF /* main.m in Sources */,
 				2A705F9F17FF14ED002587BF /* PRJAppDelegate.m in Sources */,
-				2A705FA817FF14ED002587BF /* PRJPracticeViewController.m in Sources */,
 				2AF4AD5A1802FED000C8CB1A /* Question.m in Sources */,
 				2AD4B3B418059FF600F40E01 /* ArrayOfQuestion.m in Sources */,
 				2A13E08E1808A45E001361A0 /* PRJRootViewController.m in Sources */,
@@ -307,6 +348,9 @@
 				549F7228180C61A400BC2610 /* LearnViewController.m in Sources */,
 				2ADE9D6518121B43002D220A /* QuizViewController.m in Sources */,
 				2AD2F7D31812DC7D00E93A0D /* UserAnswer.m in Sources */,
+				2A35B1991818C530005DCB44 /* PracticeViewController.m in Sources */,
+				2AEC43C71819DC4E00928703 /* PRJPracticeViewController.m in Sources */,
+				2AC321B71819F2F9002E9F3A /* PRJLearnViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,14 +363,6 @@
 				2A705F9817FF14ED002587BF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2A705FA917FF14ED002587BF /* PRJPracticeViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A705FAA17FF14ED002587BF /* en */,
-			);
-			name = PRJPracticeViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

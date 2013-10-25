@@ -128,20 +128,22 @@
 -(void) swipeLeftDetected:(UITapGestureRecognizer *)sender
 {
     if (_questionView.hidden == FALSE && _videoView.hidden == TRUE){
-    _index = arc4random_uniform(_arraySize);//get random question
+    //_index = arc4random_uniform(_arraySize);//get random question
     _myQuestion = [_myArray objectAtIndex:_index];
     _questionView.text = _myQuestion.question;
+        _index++;
     }
     NSLog(@"%d",_index);
 }
 
-
+//test here---------------------------?????????????????????????-------------------
 -(void) swipeRightDetected:(UITapGestureRecognizer *)sender
 {
     if (_questionView.hidden == FALSE && _videoView.hidden == TRUE){
-    _index = arc4random_uniform(_arraySize);//get random question
+    //_index = arc4random_uniform(_arraySize);//get random question
     _myQuestion = [_myArray objectAtIndex:_index];
     _questionView.text = _myQuestion.question;
+        _index--;
     }
     NSLog(@"%d",_index);
 }

@@ -9,13 +9,13 @@
 #import <UIKit/UIKit.h>
 @class PRJPracticeViewController;
 @class PRJQuizViewController;
-@class LearnViewController;
+@class PRJLearnViewController;
 
 
 @interface PRJRootViewController : UIViewController
 @property (strong,nonatomic)PRJPracticeViewController *practiceController;
 @property (strong,nonatomic)PRJQuizViewController *quizController;
-@property (strong,nonatomic)LearnViewController *learningController;
+@property (strong,nonatomic)PRJLearnViewController *learningController;
 
 @property(strong,nonatomic)NSString *viewTitle;
 - (IBAction)learningViewButton:(UIBarButtonItem *)sender;
