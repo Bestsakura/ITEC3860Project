@@ -4,7 +4,7 @@ numbers
 values
 types
 types
-Hint:Review variable section
+Review variable section
 Example:Variables are place holders for values.
 Topic:Variables
 Link:
@@ -14,7 +14,7 @@ floatingPoint
 int
 integer
 double
-Hint:Int and Integer are the same. Lookup FloatingPoint and Double
+Int and Integer are the same. Lookup FloatingPoint and Double
 Example:To get an accurace fraction use doubles
 Topic:Variables
 Link:
@@ -24,7 +24,7 @@ int
 whole 
 integer
 integer
-Hint:Use the full word.
+Use the full word.
 Example:Variables are place holders for values.
 Topic:Variables
 Link:
@@ -34,7 +34,7 @@ Link:
 3 1/2 
 10,000 
 1E4
-Hint:Special Figures are not valid such as " , / or ^)
+Special Figures are not valid such as " , / or ^)
 Example:1E4 is 1^4
 Topic:Variables
 Link:
@@ -44,7 +44,7 @@ char
 charString 
 String
 String
-Hint:Character and String are variable types. 
+Character and String are variable types. 
 Example:"Hello" is a string of characters
 Topic:Variables
 Link:
@@ -54,7 +54,7 @@ Link:
 6 
 1E4 
 ''Hello''
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:
@@ -62,9 +62,9 @@ Link:
 identifier 
 literal 
 label 
-variable 
-variable 
-Hint:*
+variable
+variable
+*
 Example:*
 Topic:Variables
 Link:
@@ -74,7 +74,7 @@ double welcome;
 Char welcome; 
 int welcome; 
 String welcome;
-Hint:*
+*
 Example:*
 Topic:Variables
 Link: *
@@ -84,7 +84,7 @@ double measure;
 String measure; 
 integer measure; 
 double measure;
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -94,27 +94,27 @@ double count;
 String count; 
 int count;
 int count;
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
 11. Which term is used to describe the name of a variable, method, or class? 
 type 
 literal 
-identifier 
+identifier
 label 
-identifier 
-Hint:*
+identifier
+*
 Example:*
 Topic:Variables
 Link:*
 13. By convention, variables begin with a(n) _____________. 
 uppercase letter 
 digit 
-lowercase letter 
+lowercase letter
 dollar sign 
-lowercase letter 
-Hint:*
+lowercase letter
+*
 Example:*
 Topic:Variables
 Link:*
@@ -124,7 +124,7 @@ dollar sign
 digit 
 uppercase letter 
 uppercase letter 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -134,7 +134,7 @@ Name
 n 
 nm 
 name 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -144,7 +144,7 @@ assignment
 identity 
 equality 
 assignment 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -154,7 +154,7 @@ to check for identity
 to check for equality 
 to change the value of a variable 
 to change the value of a variable 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -164,7 +164,7 @@ int count;
 count = 5; 
 String count = 5; 
 int count; 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -174,47 +174,47 @@ String count = 5;
 int count; 
 integer count = 5; 
 count = 5; 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
 20. Which statement declares and stores an integer value in a variable? 
 count = 5; 
-int count = 5; 
+int count = 5;
 integer count = 5; 
 String count = 5; 
 int count = 5;
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
 21. Assume that the variable count has been declared as type int, which statement changes the value of count? 
-count = 6; 
+count = 6;
 count == 6; 
 integer count = 6; 
 count := 6; 
-count = 6; 
-Hint:*
+count = 6;
+*
 Example:*
 Topic:Variables
 Link:*
 22. Assume that the variable count has been declared as type int. Which statement adds 10 to count? 
 count = 10; 
 count == count + 10; 
-count = count + 10; 
+count = count + 10;
 count + 10; 
-count = count + 10; 
-Hint:*
+count = count + 10;
+*
 Example:*
 Topic:Variables
 Link:*
 23. What is an object? 
 A sequence of instructions. 
 Any value stored in a variable. 
-An entity in your program that is manipulated by calling methods. 
+An entity in your program that is manipulated by calling methods.
 Any input to a method. 
 An entity in your program that is manipulated by calling methods.
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -224,7 +224,7 @@ method
 reference 
 class 
 class 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -234,7 +234,7 @@ Every object belongs to a class.
 An object is a sequence of instructions. 
 All entities, even numbers, are objects. 
 Every object belongs to a class.
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -244,7 +244,7 @@ toUpperCase
 toLowerCase 
 println 
 println 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -254,7 +254,7 @@ number types
 char types 
 boolean types 
 primitive types
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -264,7 +264,7 @@ long
 double 
 short 
 double 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -274,7 +274,7 @@ long, int, short, byte
 byte, short, long, int 
 byte, short, int, long 
 byte, short, int, long 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -284,7 +284,7 @@ concatenates
 truncates 
 rounds 
 overflows 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -294,7 +294,7 @@ BigDecimal
 float 
 double 
 BigDecimal 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -304,7 +304,7 @@ Link:*
 52 
 70 
 52 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -314,7 +314,7 @@ Link:*
 58 
 112 
 58 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -324,7 +324,7 @@ statics
 comments 
 commands 
 constants 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -334,7 +334,7 @@ double
 constant 
 int 
 final 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -344,7 +344,7 @@ final double NICKEL_VALUE == 0.05;
 final double NICKEL_VALUE = 0.05; 
 public static final double L_P_G = 3.785; 
 final double NICKEL_VALUE = 0.05; 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -354,7 +354,7 @@ final int DAYS_PER_YEAR == 365;
 public static final int DAYS_PER_YEAR = 365; 
 public static final int HOURS_PER_DAY == 24; 
 final int HOURS_PER_DAY = 24; 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -364,7 +364,7 @@ final int HOURS_PER_DAY = 24;
 final int DAYS_PER_YEAR == 365; 
 public static final int DAYS_PER_YEAR = 365; 
 public static final int DAYS_PER_YEAR = 365; 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -374,7 +374,7 @@ Link:*
 +, -, *, / 
 add, subtract, multiply, divide 
 +, -, *, / 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -384,7 +384,7 @@ addition
 increment 
 plus 
 increment 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -394,7 +394,7 @@ minus
 increment 
 decrement 
 decrement 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -404,7 +404,7 @@ x + 1
 x 
 0 
 x 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -414,7 +414,7 @@ Link:*
 1 
 1.80 
 1.80 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -424,7 +424,7 @@ mod
 / 
 div 
 % 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -434,7 +434,7 @@ int s = Math.squareroot(16);
 double s = Math.sqrt(16); 
 double s = Math.squareroot(16); 
 double s = Math.sqrt(16); 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -444,7 +444,7 @@ double p = Math.pow(2,3);
 double p = 2.power(3); 
 double p = Math.power(2,3); 
 double p = Math.pow(2,3); 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -454,7 +454,7 @@ Math.absoluteValue(x-y)
 Math.absolute(x-y) 
 |x-y| 
 Math.abs(x-y) 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -464,7 +464,7 @@ overflow
 rounding 
 cast 
 cast 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -474,27 +474,27 @@ int n = Math.round(f);
 int n = (int) Math.round(f);
 int n = (int) Math.round(100 * f); 
 int n = (int) Math.round(f);
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
 50. Which of the following code fragments converts a floating-point number to the nearest integer? double d = 6.54; 
 int i=(int)Math.round(100 * d); 
-int i=(int)Math.round(d); 
+int i=(int)Math.round(d);
 int i=(int)d; 
 int i=Math.round(d); 
 int i=(int)Math.round(d);
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
 51. Which statement displays the correct average of the value of these variables of type int? 
-println((int1+int2)/2.0); 
+println((int1+int2)/2.0);
 println(int1+int2/2.0); 
 println(int1+int2/2); 
 println((int1+int2)/2); 
-println((int1+int2)/2.0); 
-Hint:*
+println((int1+int2)/2.0);
+*
 Example:*
 Topic:Variables
 Link:*
@@ -504,7 +504,7 @@ balance == amount;
 balance +== amount; 
 balance =+ amount; 
 balance += amount; 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -514,7 +514,7 @@ balance =- amount;
 balance -== amount; 
 balance == amount; 
 balance -= amount; 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -524,7 +524,7 @@ items *== 2;
 items =* 2; 
 items ==* 2 ; 
 items *= 2; 
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -534,7 +534,7 @@ Strings
 Variables
 None of These
 Variables
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -544,7 +544,7 @@ No
 Sometimes
 *Blank*
 Yes
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -554,7 +554,7 @@ longLiveTheKing
 2BeOrNot2Be
 PrinceHamlet
 2BeOrNot2Be
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -564,7 +564,7 @@ static
 public
 final
 final
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -574,7 +574,7 @@ Link:*
 0
 11
 1
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -584,7 +584,7 @@ Boolean
 Integer
 Binary
 Boolean
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -594,7 +594,7 @@ Conditional operators
 Mathmatical operators
 Ternary operators
 Logical operators
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -604,17 +604,17 @@ Link:*
 1
 2
 2
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
 63. The "=" operator and the "==" operator perform the same operation.
 Yes
-No 
+No
 Sometimes
 *Blank*
 No
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -624,7 +624,7 @@ String
 Double
 Long
 Double
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -634,7 +634,7 @@ Link:*
 [ ]
 " "
 " "
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -644,7 +644,7 @@ No
 Sometimes
 Depend
 Yes
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -654,7 +654,7 @@ Constant
 Memeory
 Variable
 Variable
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -664,7 +664,7 @@ Link:*
 16 bits: -32,768 to 32,767
 Compiler Dependent
 32 bits: -2,147,483,648 to 2,147,483,648
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -674,7 +674,7 @@ Apple
 grandTotal
 boolean
 boolean
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -684,7 +684,7 @@ Link:*
 >=
 >=
 &&
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -694,7 +694,7 @@ Link:*
 >=
 <=
 ||
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -704,7 +704,7 @@ integer
 double
 boolean
 String
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -714,7 +714,7 @@ String
 boolean
 double
 boolean
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -724,7 +724,7 @@ integer
 char
 boolean
 integer
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -734,7 +734,7 @@ integer
 char
 boolean
 double
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -744,7 +744,7 @@ integer
 char
 boolean
 char
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -754,7 +754,7 @@ integer
 String
 boolean
 String
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -764,7 +764,7 @@ yes
 error
 nothing
 no
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -774,7 +774,7 @@ The OR THIS operator
 The OR operator
 The LESS THAN operator
 The OR operator
-Hint:*
+*
 Example:*
 Topic:Variables
 Link:*
@@ -784,7 +784,7 @@ integer
 double
 boolean
 boolean
-Hint:*
+*
 Example:Variables are place holders for values.
 Topic:*
 Link:*

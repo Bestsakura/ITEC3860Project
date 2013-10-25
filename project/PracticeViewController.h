@@ -11,13 +11,13 @@
 
 @interface PracticeViewController : UIViewController
 //Set up Interface Lables
+- (IBAction)hintButton:(UIButton *)sender;
 @property (strong, nonatomic) IBOutlet UITextView *questionTextView;
 @property (strong, nonatomic) IBOutlet UILabel *answerBoxLable;
 @property (strong, nonatomic) IBOutlet UILabel *answerLable1;
 @property (strong, nonatomic) IBOutlet UILabel *answerLable2;
 @property (strong, nonatomic) IBOutlet UILabel *answerLable3;
 @property (strong, nonatomic) IBOutlet UILabel *answerLable4;
-@property (strong, nonatomic) IBOutlet UILabel *totalLable;
 @property (strong, nonatomic) IBOutlet UILabel *correctLable;
 @property (strong, nonatomic) IBOutlet UILabel *incorrectLable;
 @property (strong, nonatomic) IBOutlet UILabel *resultLable;
@@ -28,6 +28,7 @@
 @property NSInteger answerLableNum;
 //End of UI
 @property NSString *answer;
+@property NSString *hint;
 //Array of questions
 @property NSMutableArray *myArray;
 //Hold size of array of questions

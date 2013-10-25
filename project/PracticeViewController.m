@@ -225,6 +225,7 @@
     _answerLable3.text = myQuestion.answer3;
     _answerLable4.text = myQuestion.answer4;
     _answer = myQuestion.correctAnswer;
+    _hint = myQuestion.hint;
 }
 
 //count emlements in the array of question
@@ -237,7 +238,6 @@
 }
 -(BOOL)checkAnswer:(NSString *)userAnswer{
     _tryCount++;
-    _totalLable.text = [NSString stringWithFormat:@"%d",_tryCount];
     if([_answer isEqualToString:userAnswer]){
         _correctCount++;
         _correctLable.text = [NSString stringWithFormat:@"%d",_correctCount];
@@ -248,5 +248,9 @@
         _resultLable.text = [NSString stringWithFormat:@"%d%%",_correctCount*100/_tryCount];
         return NO;
     }
+}
+- (IBAction)hintButton:(UIButton *)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Help" message:_hint delegate:nil cancelButtonTitle:@"Ok, I got it." otherButtonTitles:nil];
+    [alert show];
 }
 @end
