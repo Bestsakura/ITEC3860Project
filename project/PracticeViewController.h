@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+
 @class Question;
 
 @interface PracticeViewController : UIViewController
 //Set up Interface Lables
 - (IBAction)hintButton:(UIButton *)sender;
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer1;
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer2;
 @property (strong, nonatomic) IBOutlet UITextView *questionTextView;
 @property (strong, nonatomic) IBOutlet UILabel *answerBoxLable;
 @property (strong, nonatomic) IBOutlet UILabel *answerLable1;

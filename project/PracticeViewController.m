@@ -69,6 +69,24 @@
     //display question information of the first question
     
     [self getQuestion:_index];
+    //Add sound effect to session
+    NSBundle *mainBundle = [NSBundle mainBundle];
+    NSString *rightSound = [mainBundle pathForResource:@"right" ofType:@"wav"];
+    NSString *wrongSound = [mainBundle pathForResource:@"wrong" ofType:@"wav"];
+    NSError *error;
+    NSURL *url1 = [NSURL fileURLWithPath:rightSound];
+    NSURL *url2 = [NSURL fileURLWithPath:wrongSound];
+    _audioPlayer1 = [[AVAudioPlayer alloc]initWithContentsOfURL:url1 error:&error];
+    _audioPlayer2 = [[AVAudioPlayer alloc]initWithContentsOfURL:url2 error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]); //returns a string description of the error
+    } else {
+        //prepare the audio player, acquire the hardware
+        [_audioPlayer1 prepareToPlay];
+        [_audioPlayer2 prepareToPlay];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -237,15 +255,18 @@
     return size;
 }
 -(BOOL)checkAnswer:(NSString *)userAnswer{
+
     _tryCount++;
     if([_answer isEqualToString:userAnswer]){
         _correctCount++;
         _correctLable.text = [NSString stringWithFormat:@"%d",_correctCount];
         _resultLable.text = [NSString stringWithFormat:@"%d%%",_correctCount*100/_tryCount];
+        [_audioPlayer1 play];
         return YES;
     }else{
         _incorrectLable.text = [NSString stringWithFormat:@"%d",_tryCount-_correctCount];
         _resultLable.text = [NSString stringWithFormat:@"%d%%",_correctCount*100/_tryCount];
+        [_audioPlayer2 play];
         return NO;
     }
 }

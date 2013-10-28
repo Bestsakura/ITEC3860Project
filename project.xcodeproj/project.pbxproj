@@ -18,6 +18,7 @@
 		2A275690181A1DC700793292 /* mainscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A27568F181A1DC700793292 /* mainscreen.png */; };
 		2A35B1991818C530005DCB44 /* PracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A35B1971818C530005DCB44 /* PracticeViewController.m */; };
 		2A35B19A1818C530005DCB44 /* PracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A35B1981818C530005DCB44 /* PracticeViewController.xib */; };
+		2A62F889181EF4E500AA4A9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A62F888181EF4E500AA4A9C /* AVFoundation.framework */; };
 		2A705F8F17FF14ED002587BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F8E17FF14ED002587BF /* UIKit.framework */; };
 		2A705F9117FF14ED002587BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F9017FF14ED002587BF /* Foundation.framework */; };
 		2A705F9317FF14ED002587BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A705F9217FF14ED002587BF /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 		2A705FA117FF14ED002587BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA017FF14ED002587BF /* Default.png */; };
 		2A705FA317FF14ED002587BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA217FF14ED002587BF /* Default@2x.png */; };
 		2A705FA517FF14ED002587BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A705FA417FF14ED002587BF /* Default-568h@2x.png */; };
+		2AA798F6181EEAC500150D12 /* right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AA798F4181EEAC500150D12 /* right.wav */; };
+		2AA798F7181EEAC500150D12 /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AA798F5181EEAC500150D12 /* wrong.wav */; };
 		2AC321B71819F2F9002E9F3A /* PRJLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC321B51819F2F9002E9F3A /* PRJLearnViewController.m */; };
 		2AC321B81819F2F9002E9F3A /* PRJLearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC321B61819F2F9002E9F3A /* PRJLearnViewController.xib */; };
 		2AC9DF7C181AB71400AD1957 /* questionsbank.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2AC9DF7B181AB71400AD1957 /* questionsbank.txt */; };
@@ -74,6 +77,7 @@
 		2A35B1981818C530005DCB44 /* PracticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PracticeViewController.xib; sourceTree = "<group>"; };
 		2A395B7F1815FEB300C86E1A /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
 		2A395B801815FEB300C86E1A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2A62F888181EF4E500AA4A9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2A705F8B17FF14ED002587BF /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A705F8E17FF14ED002587BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2A705F9017FF14ED002587BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +91,8 @@
 		2A705FA017FF14ED002587BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2A705FA217FF14ED002587BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2A705FA417FF14ED002587BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2AA798F4181EEAC500150D12 /* right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.wav; sourceTree = "<group>"; };
+		2AA798F5181EEAC500150D12 /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
 		2AC321B41819F2F9002E9F3A /* PRJLearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRJLearnViewController.h; sourceTree = "<group>"; };
 		2AC321B51819F2F9002E9F3A /* PRJLearnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRJLearnViewController.m; sourceTree = "<group>"; };
 		2AC321B61819F2F9002E9F3A /* PRJLearnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRJLearnViewController.xib; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A62F889181EF4E500AA4A9C /* AVFoundation.framework in Frameworks */,
 				2A705F8F17FF14ED002587BF /* UIKit.framework in Frameworks */,
 				2A705F9117FF14ED002587BF /* Foundation.framework in Frameworks */,
 				2A705F9317FF14ED002587BF /* CoreGraphics.framework in Frameworks */,
@@ -143,6 +150,7 @@
 		2A705F8217FF14ED002587BF = {
 			isa = PBXGroup;
 			children = (
+				2A62F888181EF4E500AA4A9C /* AVFoundation.framework */,
 				2AD8925118180BDC004DF9BD /* icon2.png */,
 				2AD8924F18180BD2004DF9BD /* icon.png */,
 				2A705F9417FF14ED002587BF /* project */,
@@ -209,6 +217,8 @@
 		2A705F9517FF14ED002587BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2AA798F4181EEAC500150D12 /* right.wav */,
+				2AA798F5181EEAC500150D12 /* wrong.wav */,
 				2AC9DF7B181AB71400AD1957 /* questionsbank.txt */,
 				2A27568F181A1DC700793292 /* mainscreen.png */,
 				2A27568D181A126300793292 /* arrow.png */,
@@ -329,6 +339,8 @@
 				2A27568E181A126300793292 /* arrow.png in Resources */,
 				2A275690181A1DC700793292 /* mainscreen.png in Resources */,
 				2AC9DF7C181AB71400AD1957 /* questionsbank.txt in Resources */,
+				2AA798F6181EEAC500150D12 /* right.wav in Resources */,
+				2AA798F7181EEAC500150D12 /* wrong.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

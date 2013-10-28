@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+
 @class PracticeViewController;
 
 @interface PRJPracticeViewController : UIViewController
@@ -18,6 +19,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imgArrow;
 @property (strong, nonatomic) IBOutlet UILabel *guide;
 @property (strong, nonatomic) IBOutlet UINavigationBar *navTitle;
+
 - (IBAction)goButton:(UIButton *)sender;
 
 @end
