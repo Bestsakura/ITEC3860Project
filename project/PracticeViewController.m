@@ -32,6 +32,7 @@
     // Do any additional setup after loading the view from its nib.
     _correctCount = 0;
     _tryCount = 0;
+    _questionNum4Display=1;
     _questionTextView.layer.cornerRadius = 10;
     _answerBoxLable.layer.cornerRadius = 6;
     _answerBoxLable.layer.borderWidth = 2;
@@ -237,13 +238,14 @@
 -(void)getQuestion:(NSInteger)index
 {
     Question *myQuestion = [_myArray objectAtIndex:index];
-    _questionTextView.text = myQuestion.question;
+    _questionTextView.text = [NSString stringWithFormat:@"Question %d:\n%@",_questionNum4Display, myQuestion.question];
     _answerLable1.text = myQuestion.answer1;
     _answerLable2.text = myQuestion.answer2;
     _answerLable3.text = myQuestion.answer3;
     _answerLable4.text = myQuestion.answer4;
     _answer = myQuestion.correctAnswer;
     _hint = myQuestion.hint;
+    _questionNum4Display++;
 }
 
 //count emlements in the array of question

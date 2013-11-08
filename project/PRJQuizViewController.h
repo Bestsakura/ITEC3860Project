@@ -13,7 +13,7 @@
 @property (strong, nonatomic) IBOutlet UINavigationBar *navigationBarTitle;
 @property QuizViewController *quizController;
 - (IBAction)startQuizButton:(UIButton *)sender;
-@property (strong, nonatomic) IBOutlet UIButton *startQuizButton;
+@property (weak, nonatomic) IBOutlet UIButton *startQuizButton;
 @property (strong, nonatomic) IBOutlet UIImageView *imageQuizView;
 
 @end

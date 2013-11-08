@@ -43,6 +43,8 @@
 @property NSInteger tryCount;
 //store number of correct answer
 @property NSInteger correctCount;
+//Display number od question in increasing order
+@property NSInteger questionNum4Display;
 
 -(void)getQuestion:(NSInteger)i;
 //count emlements in the array of question

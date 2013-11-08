@@ -16,6 +16,8 @@
 @property (strong, nonatomic) IBOutlet UIButton *helpButton;
 @property (strong, nonatomic) IBOutlet UILabel *helpView;
 @property (strong, nonatomic) IBOutlet UITextView *answerView;
+@property (strong, nonatomic) IBOutlet UILabel *topicLabel;
+
 //Array of questions
 @property NSMutableArray *myArray;
 //Hold size of array of questions

@@ -40,6 +40,8 @@
     _myQuestion = [_myArray objectAtIndex:_index];
     _questionView.text = _myQuestion.question;
     _answerView.text = _myQuestion.correctAnswer;
+    _topicLabel.text = _myQuestion.topic;
+    [self embedYouTube:_myQuestion.link frame:(CGRectMake(20,20,250,250))];
     
     UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapDetected:)];
     tapGes.numberOfTapsRequired = 1;
@@ -81,7 +83,7 @@
         _questionView.hidden = TRUE;
         [_videoCardButton setTitle:@"Flash Card" forState:UIControlStateNormal];
         
-        [self embedYouTube:@"http://www.youtube.com/embed/gtQJXzi3Yns" frame:(CGRectMake(20,20,250,250))];
+        [self embedYouTube:[NSString stringWithFormat:@"http://%@", _myQuestion.link] frame:(CGRectMake(20,20,250,250))];
         
     }
     else if (_videoView.isHidden == FALSE)
@@ -90,6 +92,7 @@
         _questionView.hidden = FALSE;
         _answerView.hidden = TRUE;
         [_videoCardButton setTitle:@"Video" forState:UIControlStateNormal];
+        [self embedYouTube:[NSString stringWithFormat:@"http://%@", _myQuestion.link] frame:(CGRectMake(20,20,250,250))];
     }
 
 }
@@ -131,6 +134,11 @@
     _index = arc4random_uniform(_arraySize);//get random question
     _myQuestion = [_myArray objectAtIndex:_index];
     _questionView.text = _myQuestion.question;
+    _topicLabel.text = _myQuestion.topic;
+        
+    [self embedYouTube:[NSString stringWithFormat:@"http://%@", _myQuestion.link] frame:(CGRectMake(20,20,250,250))];
+
+        
     }
     NSLog(@"%d",_index);
 }
@@ -141,6 +149,10 @@
     _index = arc4random_uniform(_arraySize);//get random question
     _myQuestion = [_myArray objectAtIndex:_index];
     _questionView.text = _myQuestion.question;
+    _topicLabel.text = _myQuestion.topic;
+        
+    [self embedYouTube:[NSString stringWithFormat:@"http://%@", _myQuestion.link] frame:(CGRectMake(20,20,250,250))];
+
     }
     NSLog(@"%d",_index);
 }

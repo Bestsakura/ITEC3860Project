@@ -63,7 +63,7 @@
 -(void)getQuestion:(NSInteger)index
 {
     Question *myQuestion = [_myArray objectAtIndex:index];
-    _questionTextView.text = myQuestion.question;
+    _questionTextView.text = [NSString stringWithFormat:@"Question %d:\n %@",index+1,myQuestion.question];
     [_answerLable1 setTitle:[NSString stringWithFormat:@"%@", myQuestion.answer1] forState:UIControlStateNormal];
     [_answerLable2 setTitle:[NSString stringWithFormat:@"%@", myQuestion.answer2] forState:UIControlStateNormal];
     [_answerLable3 setTitle:[NSString stringWithFormat:@"%@", myQuestion.answer3] forState:UIControlStateNormal];
@@ -90,8 +90,19 @@
             NSInteger score = 0;
             NSInteger total = 0;
             _resultTextView.text = [_resultTextView.text stringByAppendingString:msg];
+            /*
             for (UserAnswer *r in _userAnswerArray) {
                 msg = [NSString stringWithFormat:@"Question: %@ \n Your response: %@ \n Correct answer: %@ \n Point: %d \n\n",r.question, r.userAnswer, r.correctAnswer, r.point];
+                _resultTextView.text = [_resultTextView.text stringByAppendingString:msg];
+                score = score + r.point;
+                total++;
+            }
+             */
+            for(int i=0; i<_numOfQuestion4Quiz;i++){
+                UserAnswer *r =[_userAnswerArray objectAtIndex:i];
+                msg = [NSString stringWithFormat:@"Question %d: %@ \n Your response: %@ \n Correct answer: %@ \n Point: %d \n",i+1,r.question, r.userAnswer, r.correctAnswer, r.point];
+                _resultTextView.text = [_resultTextView.text stringByAppendingString:msg];
+                msg = @"_____________________________________\n";
                 _resultTextView.text = [_resultTextView.text stringByAppendingString:msg];
                 score = score + r.point;
                 total++;
